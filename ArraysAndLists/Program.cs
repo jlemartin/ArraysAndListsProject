@@ -46,7 +46,7 @@ namespace ArraysAndLists
 
             foreach (var item in evens)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"{item} - an even number");
             }
 
             Console.WriteLine();
@@ -54,7 +54,7 @@ namespace ArraysAndLists
 
             foreach (var item in odds)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"{item} - an odd number");
             }
 
         }
